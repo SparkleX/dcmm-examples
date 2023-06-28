@@ -17,6 +17,12 @@
 				"*.codes.json"
 			],
 			"url": "./node_modules/dcmm-schema/schema/codes/index.json"
+		},
+		{
+			"fileMatch": [
+				"*.rest.json"
+			],
+			"url": "./node_modules/dcmm-schema/schema/rest/index.json"
 		}
 	]
 }

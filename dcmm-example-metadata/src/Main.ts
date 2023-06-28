@@ -1,8 +1,9 @@
 import { AppServer } from "dcmm"
 import { oCARDService } from "./cards/CARDService.js"
-import { oRouter } from "./generated/Controllers.js";
+import { oORDRService } from "./cards/ORDRService.js"
 
 const oAppServer = new AppServer();
-oAppServer.initControllers(oRouter);
-oAppServer.addService("oCARDService", oCARDService);
+oAppServer.addService("CARD", oCARDService);
+oAppServer.addService("ORDR", oORDRService);
+
 oAppServer.start(3000);

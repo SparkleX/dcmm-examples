@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node dist/Main",
     "build": "tsc",
-    "link": "npm link dcmm"
+    "link": "npm link dcmm dcmm-schema"
   },
   "author": "",
   "license": "ISC",

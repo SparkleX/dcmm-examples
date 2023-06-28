@@ -1,7 +1,0 @@
-{
-    "oCARDService": {
-        "method":"get",
-        "path":"/data/:id",
-        "target":"get"
-    }
-}
