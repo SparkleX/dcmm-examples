@@ -1,4 +1,14 @@
 export interface CARDModel {
-    NodeID?: string;
-    CardCode?: string;
+	/** uuid */
+	NodeID?: any;
+
+	/** string */
+	CardCode?: string;
+
+	/** decimal */
+	Balance?: string;
+
+	/** string */
+	Active?: string
+
 }
