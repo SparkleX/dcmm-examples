@@ -1,0 +1,22 @@
+{
+	"json.schemas": [
+		{
+			"fileMatch": [
+				"*.table.json"
+			],
+			"url": "./node_modules/dcmm-schema/schema/table/index.json"
+		},
+		{
+			"fileMatch": [
+				"*.sql.json"
+			],
+			"url": "./node_modules/dcmm-schema/schema/sql/index.json"
+		},
+		{
+			"fileMatch": [
+				"*.codes.json"
+			],
+			"url": "./node_modules/dcmm-schema/schema/codes/index.json"
+		}
+	]
+}
