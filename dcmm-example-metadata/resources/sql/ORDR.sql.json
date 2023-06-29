@@ -1,5 +1,5 @@
 {
-	"aaa": {
-		"sql": "select * from OCRD"
+	"findAll": {
+		"sql": "select * from ORDR"
 	}
 }
