@@ -4,10 +4,10 @@ import { oORDRSql } from "../generated/sql/ORDRSql.js";
 
 export class ORDRService extends BaseService<ORDRModel> {
     public async hello(ctx: Context): Promise<ORDRModel[]> {
-        const data = await oORDRSql.findAll(ctx as any);
+        const data = await oORDRSql.findAll(ctx, []);
         return data;
     }
 }
 
-export const oORDRService = new ORDRService();
+export const oORDRService = new ORDRService(oORDRSql);
 

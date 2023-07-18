@@ -4,25 +4,25 @@
 			"fileMatch": [
 				"*.table.json"
 			],
-			"url": "./node_modules/dcmm-schema/schema/table/index.json"
+			"url": "./node_modules/core-schema/schema/table/index.json"
 		},
 		{
 			"fileMatch": [
 				"*.sql.json"
 			],
-			"url": "./node_modules/dcmm-schema/schema/sql/index.json"
+			"url": "./node_modules/core-schema/schema/sql/index.json"
 		},
 		{
 			"fileMatch": [
 				"*.codes.json"
 			],
-			"url": "./node_modules/dcmm-schema/schema/codes/index.json"
+			"url": "./node_modules/core-schema/schema/codes/index.json"
 		},
 		{
 			"fileMatch": [
 				"*.rest.json"
 			],
-			"url": "./node_modules/dcmm-schema/schema/rest/index.json"
+			"url": "./node_modules/core-schema/schema/rest/index.json"
 		}
 	]
 }

@@ -2,8 +2,18 @@
     "serviceName":"CARD",
     "methods": {
         "get": {
-            "/data/:id" : "get",
-            "/hello":"hello"
+            "/CARD/data/:id" : "get",
+            "/CARD/find" : "find",
+            "/CARD/hello":"hello"
+        },
+        "post": {
+            "/CARD/data/" : "create"
+        },
+        "put": {
+            "/CARD/data/:id" : "update"
+        },
+        "delete": {
+            "/CARD/data/:id" : "delete"
         }
     }
 }
