@@ -23,5 +23,8 @@
     "koa-router": "^12.0.0",
     "rimraf": "^5.0.1",
     "typescript": "^5.1.5"
+  },
+  "dependencies": {
+    "dcmm": "^0.0.1"
   }
 }
