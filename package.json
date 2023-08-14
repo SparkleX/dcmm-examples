@@ -9,7 +9,7 @@
     "clean": "rimraf dist src/generated",
     "prebuild": "dcmmc",
     "build": "tsc",
-    "link": "npm link dcmm core-schema dcmm-compiler metal-dao dcmm-init",
+    "link": "npm link dcmm dcmm-schema dcmm-compiler metal-dao dcmm-init",
     "db-create": "dcmm-db-create test"
   },
   "author": "",
